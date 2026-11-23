@@ -2,6 +2,9 @@
 
 A free PowerShell toolkit for repairing NTFS ownership and permissions in a specific 36-folder layout. It cannot recover deleted files, repair storage hardware, or guarantee restoration of corrupted data.
 
+> [!IMPORTANT]
+> **Review Preview and verify that your backup can be restored before using Apply.** Ownership and permission changes can lock users out or expose private files. Read [Safety, user responsibilities and liability](#safety-user-responsibilities-and-liability) before running the toolkit.
+
 ## New to PowerShell? Start Here — Beginner's Step-by-Step PDF Guide
 
 [Open the Beginner's Step-by-Step PDF Guide](docs/NTFS_Permission_Recovery_Beginners_Step_by_Step_Guide.pdf)
@@ -50,3 +53,12 @@ See [Troubleshooting](docs/Troubleshooting.md), [safety and limitations](docs/Sa
 The [MIT License](LICENSE) permits free personal and commercial use, modification, and redistribution. Retain the copyright and license notice. The software comes without warranty. You are responsible for testing, authorization, and deployment.
 
 Created and maintained by Nisar Muhammad.
+
+## Safety, user responsibilities and liability
+
+- Use the toolkit only on a target you are authorized to administer. Confirm the exact target and review the Preview selection before Apply. Verify a recoverable backup and test first on a disposable copy.
+- Ownership and NTFS permission changes can remove legitimate access or expose private files. For the intended accounts, verify effective access after any change. Keep logs, manifests, and snapshots private.
+- Apply can leave partial changes that require manual recovery. A DACL snapshot does not replace a verified backup or guarantee restoration of ownership.
+- The toolkit repairs ownership and permissions. It does not recover deleted files, and successful repair or restoration is not guaranteed.
+
+You are responsible for authorization, target selection, testing, backups, and the effects of deployment. The toolkit is provided as is under the [MIT License](LICENSE), without warranty. To the extent permitted by applicable law, the author is not liable for losses or damage arising from use. See [Safety and limitations](docs/Safety_and_Limitations.md) and the [disclaimer](DISCLAIMER.md).
