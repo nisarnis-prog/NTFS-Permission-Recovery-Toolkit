@@ -1,0 +1,5 @@
+*.log
+*.csv
+TopLevel_*.txt
+*_ACL_before.txt
+*.tmp
