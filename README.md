@@ -2,6 +2,12 @@
 
 A free PowerShell toolkit for repairing NTFS ownership and permissions in a specific 36-folder layout. It cannot recover deleted files, repair storage hardware, or guarantee restoration of corrupted data.
 
+## New to PowerShell? Start Here — Beginner's Step-by-Step PDF Guide
+
+[Open the Beginner's Step-by-Step PDF Guide](docs/NTFS_Permission_Recovery_Beginners_Step_by_Step_Guide.pdf)
+
+Learn how to download the toolkit from GitHub, extract the ZIP, run Preview, understand the four recovery batches, review the logs, and safely use Apply mode after verifying a recoverable backup. If a PowerShell example wraps in the PDF, enter the command on one line.
+
 ## Requirements
 
 Use Windows PowerShell 5.1, a fixed local NTFS volume, and a data folder with exactly 36 immediate subfolders. Use an elevated Windows PowerShell window for Apply. Preview needs read access to the selected trees and write access to the log directory. The intended client platforms are Windows 10 and Windows 11 on builds with the required Windows tools. Consult [Safety and limitations](docs/Safety_and_Limitations.md) for validation scope.
