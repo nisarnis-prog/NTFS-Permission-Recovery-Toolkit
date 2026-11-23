@@ -1,6 +1,6 @@
 # NTFS Permission Recovery Toolkit
 
-Version 1.0.0 release candidate • Nisar Muhammad
+Version 1.0.0 • Nisar Muhammad
 
 ## 1. Decide whether the toolkit fits
 
@@ -53,4 +53,6 @@ For each selected folder, the toolkit captures a DACL snapshot with Windows ICAC
 
 ## 7. License and responsibility
 
-The MIT License allows free personal and commercial use, modification, and redistribution when the copyright and license notice are retained. The toolkit is provided as is, without warranty. You are responsible for authorization, backups, testing, and deployment. Logs, manifests, snapshots and reports may expose sensitive paths and ACL entries. Keep them private.
+The MIT License allows free personal and commercial use, modification, and redistribution when the copyright and license notice are retained.
+
+**Disclaimer.** The toolkit is provided as is, without warranty. You are responsible for authorization, backups, testing, and deployment. Logs, manifests, snapshots and reports may expose sensitive paths and ACL entries. Keep them private.
