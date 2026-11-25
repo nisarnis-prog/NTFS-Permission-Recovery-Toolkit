@@ -1,3 +1,8 @@
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/portfolio/hero-mobile.svg" />
+  <img src="assets/portfolio/hero.svg" width="1200" alt="NTFS Permission Recovery Toolkit — Nisar Muhammad" />
+</picture>
+
 # NTFS Permission Recovery Toolkit
 
 A free PowerShell toolkit for repairing NTFS ownership and permissions in a specific 36-folder layout. It cannot recover deleted files, repair storage hardware, or guarantee restoration of corrupted data.
