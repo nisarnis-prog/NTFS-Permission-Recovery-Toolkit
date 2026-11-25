@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 640px)" srcset="assets/portfolio/hero-mobile.svg" />
-  <img src="assets/portfolio/hero.svg" width="1200" alt="NTFS Permission Recovery Toolkit — Nisar Muhammad" />
+  <source media="(max-width: 640px)" srcset="assets/phase2/hero-mobile.svg" />
+  <img src="assets/phase2/hero.svg" width="1200" alt="NTFS Permission Recovery Toolkit — Nisar Muhammad" />
 </picture>
 
 # NTFS Permission Recovery Toolkit
@@ -10,21 +10,21 @@ A free PowerShell toolkit for repairing NTFS ownership and permissions in a spec
 > [!IMPORTANT]
 > **Review Preview and verify that your backup can be restored before using Apply.** Ownership and permission changes can lock users out or expose private files. Read [Safety, user responsibilities and liability](#safety-user-responsibilities-and-liability) before running the toolkit.
 
-## New to PowerShell? Start Here — Beginner's Step-by-Step PDF Guide
+## <img src="assets/phase2/section.svg" width="32" alt="" /> New to PowerShell? Start Here — Beginner's Step-by-Step PDF Guide
 
 [Open the Beginner's Step-by-Step PDF Guide](docs/NTFS_Permission_Recovery_Beginners_Step_by_Step_Guide.pdf)
 
 Learn how to download the toolkit from GitHub, extract the ZIP, run Preview, understand the four recovery batches, review the logs, and safely use Apply mode after verifying a recoverable backup. If a PowerShell example wraps in the PDF, enter the command on one line.
 
-## Requirements
+## <img src="assets/phase2/section.svg" width="32" alt="" /> Requirements
 
 Use Windows PowerShell 5.1, a fixed local NTFS volume, and a data folder with exactly 36 immediate subfolders. Use an elevated Windows PowerShell window for Apply. Preview needs read access to the selected trees and write access to the log directory. The intended client platforms are Windows 10 and Windows 11 on builds with the required Windows tools. Consult [Safety and limitations](docs/Safety_and_Limitations.md) for validation scope.
 
-## Download
+## <img src="assets/phase2/section.svg" width="32" alt="" /> Download
 
 Download the [toolkit ZIP](releases/NTFS_Permission_Recovery_Toolkit_V1.zip) and extract it, or download the [PowerShell script](scripts/NTFS_Recovery_Public_V1.ps1) using GitHub’s **Raw** view. The [PDF guide](docs/NTFS_Permission_Recovery_User_Guide.pdf) and [Markdown guide](docs/NTFS_Permission_Recovery_User_Guide.md) explain setup and verification.
 
-## Preview first
+## <img src="assets/phase2/section.svg" width="32" alt="" /> Preview first
 
 Open Windows PowerShell in the extracted toolkit folder. Replace the example root with your disposable test copy and use a separate log folder.
 
